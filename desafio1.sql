@@ -33,7 +33,7 @@ CREATE TABLE SpotifyClone.album (
     nome_album VARCHAR(255) NOT NULL,
     id_artista INT NOT NULL,
     ano_lancamento YEAR NOT NULL,
-    CONSTRAINT PRIMARY KEY (album_id , id_artista),
+    CONSTRAINT PRIMARY KEY (album_id),
     FOREIGN KEY (id_artista)
         REFERENCES artista (id_artista)
 )  ENGINE=INNODB;
@@ -159,3 +159,4 @@ VALUES
 	(7,	6),
 	(9,	3),
 	(10,2);
+
