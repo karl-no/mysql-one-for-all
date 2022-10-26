@@ -71,10 +71,10 @@ CREATE TABLE SpotifyClone.seguindo_artistas (
   
 INSERT INTO SpotifyClone.plano (nome_plano, valor_plano)
   VALUES
-    ('gratuito', '0.00'),
-	('familiar', '7.99'),
-    ('universitário', '5.99'),
-    ('pessoal', '6.99');
+    ('gratuito', 0.00),
+	('familiar', 7.99),
+    ('universitário', 5.99),
+    ('pessoal', 6.99);
   
   INSERT INTO SpotifyClone.usuario (nome_usuario, idade, data_assinatura, id_plano)
   VALUES
